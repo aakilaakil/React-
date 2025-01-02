@@ -1,0 +1,81 @@
+.form {
+    margin-left: 33%;
+    margin-top: 100px;
+    background-color: rgba(255, 255, 255, 0.5); /* White background with 50% opacity */
+    height: max-content;
+    padding: 30px;
+    width: 500px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-group {
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+  }
+  
+  label {
+    width: 50%;
+    text-align: left;
+  }
+  
+  input[type="text"], input[type="radio"],input[type="date"] {
+    border-radius: 10px;
+    padding: 5px;
+    color: rgb(14, 14, 14);
+    background-color:rgb(244, 236, 236);
+  }
+  
+  input[type="text"] {
+    width: 60%; 
+  }
+  
+  button {
+    align-self: center;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50; 
+    color: rgb(241, 231, 231);
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: rgb(23, 23, 23) 0px 0px 5px;
+  }
+  
+.actor
+{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: bold;
+    background-color: rgb(224, 236, 236) 50%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.fav
+{
+    font-weight: bold;
+}
+input:hover{
+  border-color: #0c570b;
+}
+
+body{
+  overflow: scroll;
+}

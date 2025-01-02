@@ -1,0 +1,15 @@
+.wel
+{
+    width: 100vw;
+    height: 100vh;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+
+dt,ol
+{
+    gap: 20px;
+    background-color: rgb(255, 255, 255, 0.5);}

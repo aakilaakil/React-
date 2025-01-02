@@ -1,0 +1,52 @@
+.wel
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+}
+.wel *
+{
+    margin: 10px 10px ;
+}
+
+h1,h2{
+    background-color: rgba(255, 255, 255, .2);
+}
+button:hover {
+    box-shadow: rgb(247, 216, 216) 0px 0px 5px;
+  }
+
+  h3,label{
+    font-family: cursive;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 5px;;
+  }
+  .head
+{
+  color: rgb(18, 19, 18);
+  font-family: cursive;
+  background-color: aliceblue;
+}
+
+
+body
+{
+  background-image: url(/src/assets/BG.jpg) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.Nav {
+  width: 100vw;
+  height: 30px;
+  background-color: rgba(195, 184, 223, 0.2);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 25px;
+  color: rgb(18, 19, 18);
+}
